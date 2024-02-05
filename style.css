@@ -1,0 +1,74 @@
+:root {
+    --backgroundColor: rgb(128, 128, 128);
+}
+
+* {
+    font-family: Nunito;
+    vertical-align: top;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head > div {
+    height: 100%;
+    width: calc(100%/3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#head > div > h2 {
+    color: gold;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#foot {
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#foot > h2 {
+    color: gold;
+    font-size: 3rem;
+    margin: 0;
+}
+
+#main {
+    height: 70%;
+    width: 100%;
+    background-color: rgb(23, 30, 31);
+}
+
+#canvas {
+    height: 100%;
+    width: 100%;
+}
